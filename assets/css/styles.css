@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #000000;
+	color: #ffffff;
+}
+main {
+	max-width: 900px;
+	margin: auto;
+	margin-top: 20px;
+}
+.title {
+	text-align: center;
+	margin: 20px;
+}
+.category-select {
+	text-align: center;
+	margin-bottom: 20px;
+}
+button {
+	background: #000000;
+	color: #ffffff;
+	border: solid 1px #FED000;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 18px;
+	margin-right: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-transform: capitalize;
+}
+button:hover {
+	background: #FED000;
+	color: #000000;
+}
+.recipe {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu-item {
+	flex-grow: 1;
+	width: 32%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 5px;
+}
+img {
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+.details-item {
+	background: #222222;
+	padding: 30px 20px 30px 20px;
+	border-radius: 0px 0px 10px 10px;
+}
+.title-price {
+	display: flex;
+	justify-content: space-between;
+}
+hr {
+	color: #FED000;
+	margin: 10px 0px;
+}
