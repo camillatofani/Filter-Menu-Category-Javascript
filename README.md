@@ -1,4 +1,4 @@
-# Menu
+# Filter Menu Category Javascript
 JavaScript Project 07/39
 
 # Legend
@@ -24,7 +24,7 @@ I created a function only for the button of category. With '.push' and '(!values
 ### View
 <a name="view"></a>
 
-To try the application follow this link: https://camillatofani.github.io/Menu/
+To try the application follow this link: https://camillatofani.github.io/Filter-Menu-Category-Javascript/
 
 
 ### Contact
